@@ -17,7 +17,17 @@ ModelImporter:
     3300002: Couch Wood
     4300000: Couch Wood
     4300002: Couch Fabric
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Couch Fabric
+    second: {fileID: 2100000, guid: 70295ba145f671b48a5d161004b12b25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Couch Wood
+    second: {fileID: 2100000, guid: b2e68126a1b1e6f4cbb9722ef7eed2cf, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
